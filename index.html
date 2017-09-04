@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/wikipedia.css">
+</head>
+
+<body>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+  <div class="container">
+    <h1>Wikipedia Viewer</h1>
+    <h4>Free Code Camp Front End Development Project</h4>
+    <a href="https://en.wikipedia.org/wiki/Main_Page" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png" id="wiki-pic"></a>
+    <div class="row">
+      <div class="col-md-4"> </div>
+      <div class="col-md-4">
+        <input class="form-control" id="searchFor">
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <div id="button-div">
+      <button id="submit" type="button" class="btn btn-primary">Submit</button>
+      <button id="random" type="button" class="btn btn-primary"><a href="https://en.wikipedia.org/wiki/Special:Random" target="blank">Random Article</a></button>
+    </div>
+    <ul id="output"></ul>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://use.fontawesome.com/3708dac087.js" type="text/javascript"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/wikipedia.js"></script>
+</body>

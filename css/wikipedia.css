@@ -1,0 +1,80 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/BlankMap-World6.svg/2560px-BlankMap-World6.svg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#wiki-pic {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+h1 {
+  font-family: Lobster, Calibri;
+  font-size: 600%;
+  text-align: center;
+}
+
+h4 {
+  font-family: Lobster, Calibri;
+  font-size: 200%;
+  text-align: center;
+}
+
+#submit {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#random a {
+  color: white;
+  text-decoration: none;
+}
+
+#output {
+  font-family: Helvetica;
+  list-style-type: none;
+}
+
+li {
+  background: lightgray;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 5px #888;
+}
+
+li:hover {
+  background: #b4b4b4;
+}
+
+.data-title {
+  font-size: 150%;
+  padding-bottom: 100px;
+}
+
+.data-text {
+  font-size: 120%;
+  padding-top: 10px;
+}
+
+#results {
+  margin-bottom: 25px;
+  font-size: 300%;
+  text-align: center;
+}
+
+#button-div {
+  text-align: center;
+}
+
+#results {
+  padding-right: 3%;
+}
